@@ -1,7 +1,11 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
   name='dspylib',
-  packages=find_packages(),
+  packages=[
+    'dspylib',
+    'dspylib.date',
+    'dspylib.tests'
+  ],
   include_package_data=True
 )
