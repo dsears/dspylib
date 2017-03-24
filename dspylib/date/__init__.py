@@ -1,5 +1,5 @@
 import datetime
-from dsears.dspylib import pluralize
+from dspylib import pluralize
 
 def timedelta_to_seconds(delta):
   return delta.seconds + (delta.days * 86400)

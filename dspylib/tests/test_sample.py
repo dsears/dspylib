@@ -1,5 +1,5 @@
 import datetime
-from dsears.dspylib.date import relative_time
+from dspylib.date import relative_time
 
 def test_relative_time():
   then = datetime.datetime.now()
