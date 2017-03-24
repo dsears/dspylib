@@ -1,5 +1,8 @@
 language: python
 python:
-  - "2.7"
-install: "pip install -r requirements.txt"
+- '2.7'
+install: pip install -r requirements.txt
 script: pytest
+notifications:
+  slack:
+    secure: nrQvBYcfr12DbtfWkw1MSHSkQuDiPFrvFhZdGHuVg1r82ZwX4uSgiNTH51KcAp90w0/wUJnwvORFnYyBqHPUiyjY61G5kovApCZKieYXC/oO4Kraze5kIKz8AoFcSrrdYUYUEJx+7uHYtbEXRKZkfTmPPo7E0WI6xdSm3ANmzTcX59Swn841bQhtL4VRL0iJmF+SBbw/I0NNc224t7b0Yk0T3VAJcZIy3thN8uijpX7rOxLbz79Ct7paxbNIHdNICgcddYlqPO3WS2ozfRSDYgZ25QwLZTn/igSXhEM+JWpY0lDfzyq1nWUzoiVrYIsxEo8o1KYWumpRTSgZlXLYmlLRFzt8cBv4DnWRNoUHjXs2BCX1p+uzPn1YJ/+irMEfgtNelyKx9Q07uc9zgVtOHj9714uZwlIhvjD2ktByORhlkvm/6HlqFLM2KZXe8H7MCjfcD+HGuN+Th2Ifdeas1KcZzu4dD3lQLRJ7c6nMssAy64d0rptR0zX18BBswLYYkhrHTotuT2o9nPSi5+uyunjSktsmkT8YbHs0Mz1ztFg+W8P2KKGeOGLwNzoxK9/dFJ4LGHn+GTU5696D8rtUZOxTqrcZZWD63rpFcRxE35mzocTxwCwPmspvFuHufHgNQH2MvAz2liHI4hKmtjEqUfJnRju60+7PKWiWuBp2OqQ=
